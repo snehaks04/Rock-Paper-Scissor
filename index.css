@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+
+.select{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.box{
+    margin-top: 1.5rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    font-size: 4rem;
+}
+
+.box:active{
+    outline: 4px solid black;
+    outline-offset: .5rem;
+}
+.score{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    color: brown;
+}
+.user{
+    margin-right: 10rem;
+    
+}
+.userscore, .compscore{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.result{
+    font-size: 2.5rem;
+    align-self: start;
+    margin-block: 2rem;
+}
+
+.btn{
+  font-size: 1.2rem;
+  padding-inline: 1.3rem;
+  padding-block: .3rem;
+  background-color: coral;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(62, 61, 61);
+
+}
+.btn:active{
+    transform: translateY(1px);
+}
+.b{
+    border-radius:50% ;
+    border: none;
+    background-color: transparent;
+}
